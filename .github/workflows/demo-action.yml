@@ -15,8 +15,8 @@ jobs:
       - name: Generate PDFs
         uses: as-op/md-to-pdf-action@v0.0.1
         with:
-          config-file: "./.github/md-to-pdf/md-to-pdf.config.yml"
-          stylings: "./.github/md-to-pdf/styling/"
+          config: "${{ github.workspace }}/.github/md-to-pdf/md-to-pdf.config.yml"
+          stylings: "${{ github.workspace }}/.github/md-to-pdf/styling/"
           nexcloud-user:  ${{ secrets.NEXTCLOUD_USERNAME }}
           nexcloud-app-access-key: ${{ secrets.NEXTCLOUD_APP_ACCESS_KEY }}
           nexcloud-upload-path: ${{ secrets.NEXTCLOUD_UPLOAD_PATHx }}
