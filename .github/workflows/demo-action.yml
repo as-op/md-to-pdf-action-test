@@ -17,6 +17,6 @@ jobs:
         with:
           config: ".github/md-to-pdf/md-to-pdf.config.yml"
           stylings: ".github/md-to-pdf/styling/"
-          nexcloud-user:  ${{ secrets.NEXTCLOUD_USERNAME }}
+          nexcloud-user: ${{ secrets.NEXTCLOUD_USERNAME }}
           nexcloud-app-access-key: ${{ secrets.NEXTCLOUD_APP_ACCESS_KEY }}
           nexcloud-upload-path: ${{ secrets.NEXTCLOUD_UPLOAD_PATHx }}
