@@ -3,7 +3,7 @@
     pdf_language: de
     pdf_footer_3: Seite <page> von <total>
   documents:
-    - source: demo/demo.md
+    - source: markdown/demo.md
       destination: demo-on-server/demo-file-on-server-1.pdf
       styling: demo-styling
       pdf_footer: Demo-Datei Footer
@@ -13,12 +13,12 @@
     pdf_language: en
     pdf_footer_3: Page <page> of <total>
   documents:
-    - source: demo/demo.md
+    - source: markdown/demo.md
       destination: demo-on-server/demo-file-on-server-2.pdf
       pdf_footer: Demo File Footer
 
 - default:
     styling: demo-styling
   documents:
-    - source: demo/demo.md
+    - source: markdown/demo.md
       destination: demo-on-server/demo-file-on-server-3.pdf
