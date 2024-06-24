@@ -16,3 +16,31 @@ quadrantChart
     Campaign E: [0.40, 0.34]
     Campaign F: [0.35, 0.78]
 ```
+
+```mermaid
+gantt
+    title A Gantt Diagram
+    dateFormat YYYY-MM-DD
+    section Section
+        A task          :a1, 2014-01-01, 30d
+        Another task    :after a1, 20d
+    section Another
+        Task in Another :2014-01-12, 12d
+        another task    :24d
+```
+
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
