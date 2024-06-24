@@ -13,7 +13,7 @@ jobs:
           ref: "main"
 
       - name: Generate PDFs
-        uses: as-op/md-to-pdf-action@v0.0.1
+        uses: as-op/md-to-pdf-action@v1
         with:
           config: ".github/md-to-pdf/md-to-pdf.config.yml"
           stylings: ".github/md-to-pdf/styling/"
