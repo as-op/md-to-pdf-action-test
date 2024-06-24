@@ -1,0 +1,34 @@
+page:
+  font: 'Helvetica'
+  size: 10
+  character_spacing: 0
+  styles: [ ]
+  color: '000000'
+  page_size: 'A4'
+  page_layout: 'portrait'
+  margin: 20mm
+  leading: 2
+
+code:
+  font: 'Courier'
+
+codeblock:
+  font: 'Courier'
+
+page_footer:
+  filter_pages: [ ]
+  align: "left"
+  offset: -21
+  size: 8
+
+page_footer_2:
+  filter_pages: [ ]
+  align: "center"
+  offset: -21
+  size: 8
+
+page_footer_3:
+  filter_pages: [ ]
+  align: "right"
+  offset: -21
+  size: 8
