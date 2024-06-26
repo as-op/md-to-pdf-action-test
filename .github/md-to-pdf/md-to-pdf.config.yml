@@ -4,6 +4,6 @@
     pdf_footer_3: Seite <page> von <total>
   documents:
     - source: markdown/demo.md
-      destination: demo-on-server/demo-file-on-server-1.pdf
+      destination: demo-on-server/demo-file-on-server-äüöß.pdf
       styling: demo-styling
       pdf_footer: Demo-Datei Footer
